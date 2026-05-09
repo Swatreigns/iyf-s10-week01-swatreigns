@@ -1,0 +1,153 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap');
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ROOT VARIABLES */
+:root {
+    /* Typography */
+    --font-xs: 0.75rem;
+    --font-sm: 0.875rem;
+    --font-base: 1rem;
+    --font-lg: 1.125rem;
+    --font-xl: 1.25rem;
+    --font-2xl: 1.5rem;
+    --font-3xl: 1.875rem;
+    --font-4xl: 2.25rem;
+
+    /* Fonts */
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+
+    /* Colors */
+    --color-primary: #4361ee;
+    --color-secondary: #f72585;
+    --color-background: #f8f9fa;
+    --color-text: #212529;
+    --color-muted: #6c757d;
+
+    --color-primary-light: #4895ef;
+    --color-primary-dark: #3a0ca3;
+}
+
+/* BASE TYPOGRAPHY */
+body {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-background);
+    padding: 20px;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    margin-bottom: 15px;
+    color: var(--color-primary-dark);
+    line-height: 1.3;
+}
+
+h1 { font-size: var(--font-4xl); font-weight: 700; }
+h2 { font-size: var(--font-3xl); font-weight: 700; }
+h3 { font-size: var(--font-2xl); font-weight: 600; }
+h4 { font-size: var(--font-xl); font-weight: 600; }
+h5 { font-size: var(--font-lg); font-weight: 600; }
+h6 { font-size: var(--font-base); font-weight: 600; }
+
+/* TEXT */
+p {
+    margin-bottom: 15px;
+}
+
+small {
+    font-size: var(--font-sm);
+    color: var(--color-muted);
+}
+
+/* LINKS */
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+/* BUTTONS */
+button, .btn {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: var(--color-primary-dark);
+}
+
+/* BOX MODEL PRACTICE */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.box {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid var(--color-primary-dark);
+    margin: 10px;
+    background-color: var(--color-primary-light);
+    color: white;
+    text-align: center;
+}
+
+/* BROKEN BOX FIXED */
+.broken-box {
+    width: 300px;
+    padding: 20px;
+    border: none;
+    box-sizing: border-box;
+    background-color: var(--color-secondary);
+    color: white;
+    margin-top: 20px;
+}
+
+/* CARD COMPONENT */
+.card {
+    width: 300px;
+    border: 1px solid gray;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
