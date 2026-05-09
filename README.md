@@ -1,8 +1,8 @@
-# Welcome to Swat Reigns' Portfolio
+# Welcome to Patrick Njoroge's Portfolio
 
 ## About Me
 
-Hello! My name is **Swat Reigns** and I am 19 years old. I am a form four Leaver currently working on expanding my computer knowledge.
+Hello! My name is **Patrick Njoroge** and I am 19 years old. I am a form four Leaver currently working on expanding my computer knowledge.
 
 ### Interests
 - 🎮 Gaming
