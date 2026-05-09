@@ -41,4 +41,7 @@ To view this project, simply open `Index.html` in your web browser.
 
 ---
 
+##🚀 Live Demo
+👉.[view live portfolio](https://luna256-sky.github.io/iyf-s10-week-01-swatreigns/)
+
 *Last updated: February 25, 2026*
