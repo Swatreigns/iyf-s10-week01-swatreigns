@@ -2,7 +2,7 @@
 
 ## About Me
 
-Hello! My name is **Swat Reigns** and I am 19 years old. I am a form six leaver currently working on expanding my computer knowledge.
+Hello! My name is **Swat Reigns** and I am 19 years old. I am a form four Leaver currently working on expanding my computer knowledge.
 
 ### Interests
 - 🎮 Gaming
